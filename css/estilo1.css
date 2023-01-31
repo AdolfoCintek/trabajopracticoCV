@@ -4,7 +4,6 @@ box-sizing: border-box;
 }
 
 body{
-   
    background-color: rgb(227, 232, 238);
    border: 5px solid rgb(238, 232, 232);
    padding-top: 0%;
@@ -12,11 +11,9 @@ body{
    margin: 0%;
    height: 100%;
    margin-bottom: 0%;
+  }
 
-    }
-
- #tituloh1{
-   
+ #tituloh1{ 
     font-family:'Great Vibes', cursive;
     font-size: 300%;
     color:white;
@@ -29,9 +26,8 @@ body{
     padding-bottom: 0%;
     margin-left: 0%;
     margin-bottom: 0%;
-    margin-top: 0%;  
-    
-}
+   margin-top: 0%;  
+ }
 
 #tituloh2{
     color:white;
@@ -61,9 +57,9 @@ body{
 
 #datospersonales{
   
-  text-align: justify;
+  font-size: medium;
   margin-top:3%;
-  box-sizing:  border-box;
+  box-sizing: border-box;
 
   
 }
@@ -89,11 +85,10 @@ body{
     height: 10%;
     padding: 0%;
     padding-top: 0%;
-    padding-top: 0%;
     padding-bottom: 0%;
     margin-left: 42%;
     margin-right: 0%;
-    margin-top: -0,1%;
+    margin-top: -18%;
    
      
   }
@@ -114,15 +109,34 @@ body{
 }
 #seccion2 {
   background-color: rgb(244, 240, 240);
- 
-  margin-left: 3%;
-  margin-right: 40%;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 0%;
+  float:left;
   padding-right: 3%;
   padding-left: 3%; 
   padding-bottom: 0%; 
-  
-  
  }
+
+ #parrafoexpelaboral
+ {
+  font-size: small ; 
+}
+
+#seccion3{
+  font-size: small;
+  background-color: rgb(237, 230, 230);
+  margin-top: 3%;
+  margin-left: 0%;
+  margin-right: 5%;
+  margin-bottom:0%;
+  float:right ;
+  
+  
+  
+    
+}
+
 
 #linea_final
 {
