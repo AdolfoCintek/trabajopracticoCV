@@ -4,13 +4,33 @@ box-sizing: border-box;
 }
 
 body{
-   background-color: rgb(227, 232, 238);
-   border: 5px solid rgb(238, 232, 232);
+   background-color: rgb(227, 232, 238);   
    padding-top: 0%;
    padding-bottom: 0%;
    margin: 0%;
    height: 100%;
    margin-bottom: 0%;
+  }
+
+  #cerrar_certificado, .img_certif_ampliadas {
+    display: none;
+  }
+  
+  .img_certif_ampliadas {
+    width: 500px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 20px;
+  }
+
+  #cerrar_certificado {
+    text-align: center;
+    background-color: blanchedalmond; 
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    color: red;
+    font-weight:800;
   }
 
  #tituloh1{ 
@@ -123,19 +143,24 @@ body{
   font-size: small ; 
 }
 
-#seccion3{
+#seccion3 {
   font-size: small;
   background-color: rgb(237, 230, 230);
   margin-top: 3%;
   margin-left: 0%;
   margin-right: 5%;
   margin-bottom:0%;
-  float:right ;
-  
-  
-  
-    
+  float:right ;   
 }
+
+#seccion3 ul, li {  
+  padding: 0;   
+}
+
+#seccion3 li {
+  list-style-type: none;    
+}
+
 
 
 #linea_final
